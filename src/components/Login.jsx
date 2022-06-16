@@ -4,7 +4,8 @@ import styled from "styled-components";
 export const Login = () => {
   const handleClick = () => {
     const clientId = "338bbf3386ce425f8e58d9c8e9d466c4";
-    const redirectUrl = "http://localhost:3000/";
+    // const redirectUrl = "http://localhost:3000/";
+    const redirectUrl = "https://Vivek1340.github.io/spotify-clone";
     const apiUrl = "https://accounts.spotify.com/authorize";
     const scope = ["user-read-email", "user-read-private", "user-modify-playback-state"
       , "user-read-playback-state"
